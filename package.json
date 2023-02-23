@@ -1,0 +1,41 @@
+{
+  "name": "insomnia-plugin-rose-pine-theme",
+  "version": "1.0.0",
+  "description": "Soho vibes for Insomnia.",
+  "main": "index.js",
+  "author": {
+    "name": "Agustinho Neto",
+    "email": "agustinho.pneto@gmail.com",
+    "url": "https://github.com/agustinhopneto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustinhopneto/rose-pine-insomnia.git"
+  },
+  "keywords": [
+    "insomnia",
+    "rosepine",
+    "theme",
+    "dark",
+    "light"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agustinhopneto/rose-pine-insomnia/issues"
+  },
+  "homepage": "https://github.com/agustinhopneto/rose-pine-insomnia#readme",
+  "insomnia": {
+    "name": "rose-pine",
+    "displayName": "Rosé Pine",
+    "description": "Soho vibes for Insomnia.",
+    "images": {
+      "icon": "./assets/icon.svg",
+      "cover": "./assets/cover.svg"
+    },
+    "publisher": {
+      "name": "Agustinho Neto",
+      "icon": "https://github.com/agustinhopneto.png"
+    },
+    "unlisted": false
+  }
+}

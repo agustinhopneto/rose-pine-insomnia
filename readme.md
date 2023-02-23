@@ -13,33 +13,33 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+Use this custom protocol in your browser's address bar to open the plugin installation on Insomnia app.
+
+```js
+insomnia://plugins/install?name=insomnia-plugin-rose-pine-theme
+```
+
+### Manually
+
+1. Navigate to `Preferences > Plugins`
+2. In the `"Install plugin"` field, enter `insomnia-plugin-rose-pine-theme`
+3. Click `"Install plugin"`
+4. Navigate to `Preferences > Themes` and you should see **Rosé Pine Themes** available.
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+### Rosé Pine
+
+![Rosé Pine](assets/main.png)
+
+### Rosé Pine Moon
+
+![Rosé Pine Moon](assets/moon.png)
+
+### Rosé Pine Dawn
+
+![Rosé Pine Dawn](assets/dawn.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [Agustinho Neto](https://github.com/agustinhopneto)
