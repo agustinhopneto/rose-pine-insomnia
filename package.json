@@ -37,5 +37,13 @@
       "icon": "https://github.com/agustinhopneto.png"
     },
     "unlisted": false
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
